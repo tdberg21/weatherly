@@ -3,6 +3,7 @@ import Card from '../Card/Card.js'
 import cleanTenData from '../../dataCleaner/cleanTenData.js'
 
 const TenDay = () => {
+
   render() {
     return (
       

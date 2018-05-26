@@ -1,6 +1,8 @@
 import React from 'react';
 import data from '../../src/mock-data'
+
 import fetchData from '../src/apiCalls.js'
+
 
 
 // const fetchedData = (state, city) => fetchData(state, city);
@@ -18,6 +20,8 @@ const cleanData = (fetchedData) => {
 
   return cleanObj
 }
+
 export default cleanData;
+
 
 

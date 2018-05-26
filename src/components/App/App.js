@@ -7,7 +7,7 @@ import data from '../../mock-data';
 import cleanData from '../../dataCleaner/dataCleaner.js';
 
 // import SevenHour from '../SevenHour/SevenHour.js';
-// import TenDay from '../TenDay/TenDay.js'
+import TenDay from '../TenDay/TenDay.js'
 
 class App extends Component {
   constructor() {
@@ -34,6 +34,7 @@ class App extends Component {
           // img: {http://icons.wxug.com/i/c/k/mostlycloudy.gif} 
           conditionSummary={cleanData().conditionSummary}
         />
+        <TenDay />
       </div>
     );
   }
