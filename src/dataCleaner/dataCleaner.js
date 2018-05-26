@@ -1,10 +1,15 @@
 import React from 'react';
+<<<<<<< HEAD
 import data from '../src/mock-data'
 
+=======
+import data from '../../src/mock-data'
+// import fetchData from '../src/apiCalls.js'
+>>>>>>> ef83560... Update cards
 
 // const fetchedData = (state, city) => fetchData(state, city);
 
-export const cleanData = (fetchedData) => {
+const cleanData = (fetchedData) => {
  let cleanObj = {
     city: data.current_observation.display_location.city,
     state: data.current_observation.display_location.state,
@@ -18,6 +23,7 @@ export const cleanData = (fetchedData) => {
   return cleanObj
 }
 
+<<<<<<< HEAD
 console.log(cleanData());
 
 export const cleanTenDay = (fetchedData) => {
@@ -37,5 +43,8 @@ export const cleanTenDay = (fetchedData) => {
 
 
 // console.log(cleanTenDay());
+=======
+export default cleanData;
+>>>>>>> ef83560... Update cards
 
 
